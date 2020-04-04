@@ -1,4 +1,4 @@
-package com.erikriosetiawan;
+package com.erikriosetiawan.encapsulatedweaponbehavior;
 
 public interface WeaponBehavior {
 

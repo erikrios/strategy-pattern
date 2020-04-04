@@ -1,4 +1,6 @@
-package com.erikriosetiawan;
+package com.erikriosetiawan.client;
+
+import com.erikriosetiawan.encapsulatedweaponbehavior.WeaponBehavior;
 
 public class Character {
 
