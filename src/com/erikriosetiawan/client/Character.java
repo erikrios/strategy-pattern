@@ -2,13 +2,11 @@ package com.erikriosetiawan.client;
 
 import com.erikriosetiawan.encapsulatedweaponbehavior.WeaponBehavior;
 
-public class Character {
+abstract class Character {
 
     WeaponBehavior weapon;
 
-    public void fight() {
-        System.out.println("The character is fight");
-    }
+    abstract void fight();
 
     public void setWeapon(WeaponBehavior weapon) {
         this.weapon = weapon;
