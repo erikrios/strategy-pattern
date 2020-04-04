@@ -2,7 +2,7 @@ package com.erikriosetiawan.client;
 
 import com.erikriosetiawan.encapsulatedweaponbehavior.WeaponBehavior;
 
-abstract class Character {
+public abstract class Character {
 
     WeaponBehavior weapon;
 
